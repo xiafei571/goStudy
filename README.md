@@ -13,3 +13,15 @@ go get github.com/Go-zh/tour/gotour
 然后运行得到的 gotour 程序就可以了：
 cd $GOPATH/bin
 ./gotour
+
+
+## 启动本地教程报错
+Couldn't find tour files: could not find go-tour content; check $GOROOT and $GOPATH
+先把GOPATH设置为自己go工程的路径 export GOPATH=/Users/xiafei/code/goStudy/
+然后依次执行
+cd $GOPATH/bin
+./gotour
+
+
+last
+http://127.0.0.1:3999/moretypes/15
